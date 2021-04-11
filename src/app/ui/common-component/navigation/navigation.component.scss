@@ -1,0 +1,47 @@
+
+.navbar-brand {
+  color: #2F78C0;
+}
+
+.search-item {
+  margin-right: 5px;
+  form {
+    flex-flow: unset;
+    input {
+      width: 250px
+    };
+    .search-btn {
+      background-color: #2F78C0;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+  };
+
+}
+
+.nav-flex-icons {
+  align-items: center;
+}
+
+
+
+.main-menu-item {
+  .nav-item {
+    margin-right: 10px;
+  }
+  .active-item {
+    a {
+      color: #2F78C0;
+    }
+  }
+
+  @media (min-width:990px) {
+    margin-left: 50px;
+  }
+}
+
+
