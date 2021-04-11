@@ -32,9 +32,10 @@
 .main-menu-item {
   .nav-item {
     margin-right: 10px;
-  }
-  .active-item {
-    a {
+    .nav-link {
+      color: black;
+    }
+    .active-item {
       color: #2F78C0;
     }
   }

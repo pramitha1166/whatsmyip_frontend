@@ -15,6 +15,9 @@ export class HomeComponent implements OnInit {
   }
 
 
+  scrollToElement($element: any) :void {
+    $element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"})
+  }
 
 
 
